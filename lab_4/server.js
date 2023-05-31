@@ -4,40 +4,40 @@ app = express(),
 toDos =
 [
   {
-    "description": "View the entire list of TV shows",
-    "tags": [ "list", "TVshow" ]
+    "description": "Посмотреть список групп ИКТЗИ",
+    "tags": [ "список", "ИКТЗИ" ]
   },
 
   {
-    "description": "View all channel list",
-    "tags": [ "list", "channel" ]
+    "description": "Посмотреть список групп ИАНТЭ",
+    "tags": [ "список", "ИАНТЭ" ]
   },
 
   {
-    "description": "View the schedule of a specific TV show",
-    "tags": [ "schedule", "TVshow" ]
+    "description": "Посмотреть список групп ИАЭП",
+    "tags": [ "список", "ИАЭП" ]
   },
 
   {
-    "description": "View the schedule of a specific channel",
-    "tags": [ "schedule", "channel" ]
+    "description": "Посмотреть список групп ИРЭФ - ЦТ",
+    "tags": [ "список", "ИРЭФ - ЦТ" ]
   },
 
   {
-    "description": "View the schedule for the whole week",
-    "tags": [ "schedule", "week" ]
+    "description": "Посмотреть список групп ФМФ",
+    "tags": [ "список", "ФМФ" ]
   },
 
   {
-    "description": "View schedule for tomorrow",
-    "tags": [ "schedule", "tomorrow" ]
+    "description": "Посмотреть список групп ВШПИТ",
+    "tags": [ "список", "ВШПИТ" ]
   },
 
   {
-    "description": "View schedule for today",
-    "tags": [ "schedule", "today" ]
+    "description": "Посмотреть список групп ИИЭиП",
+    "tags": [ "список", "ИИЭиП" ]
   }
-];
+]
 
 app.use(express.static(__dirname + "/client"));
 http.createServer(app).listen(3000);
