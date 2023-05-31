@@ -23,7 +23,7 @@ header  a, footer a {
 }
 
 header a:hover, footer a:hover {
-	color: #004EA6;
+	color: #0077FF;
 }
 
 header a:active, footer a:active {
@@ -36,7 +36,7 @@ header {
 	width: 100%;
 	height: 50px;
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.75);
-	background:#004EA6;
+	background: #004EA6;
 	color: #FFFFFF;
 	float: left;
 	display: flex;
@@ -144,14 +144,14 @@ footer {
 }
 
 .logOrRegRefBlock button:hover {
-	background-color:#004EA6 ;
+	background-color: #0077FF;
 	color: #FFFFFF;
 	border: 0px solid silver;
 	cursor: pointer;
 }
 
 .logOrRegRefBlock button:active {
-	background-color: #004EA6;
+	background-color: #0077FF;
 	color: #FFFFFF;
 	border: 0px solid silver;
 }
@@ -194,7 +194,7 @@ footer {
 }
 
 .tabs a span.hover {
-	background: #004EA6;
+	background: #0077FF;
 	color: #fff;
 }
 
@@ -204,11 +204,21 @@ footer {
 }
 
 .content-active {
-	border: 1px solid #004EA6;
+	border: 1px solid #0077FF;
 	border-radius: 5px;
 }
 
-.inputStyle {
+.inputStyleDescription {
+	border-radius: 3px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 363px;
+	font-family: Comic Sans MS;
+}
+
+.inputStyleTags {
 	border-radius: 3px;
 	height: 25px;
 	margin-left: 10px;
@@ -237,4 +247,37 @@ footer {
 .buttonStyle:active {
 	background: #004EA6;
 	color: #fff;
+}
+
+.showPictures {
+	border: 1px solid silver;
+	width: 90%;
+	height: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin-left: 5%;
+}
+
+#fieldForTagsOfOicture {
+	border-radius: 3px;
+	height: 25px;
+	width: 363px;
+	font-family: Comic Sans MS;
+	margin-top: 10px;
+	margin-left: 6%;
+}
+
+.showPictures span {
+	margin: 2%;
+}
+
+.showPictures button {
+	margin-top: 10px;
+	margin-left: 350px;
+}
+
+#newPicture {
+	margin-top: 10px;
+	margin-left: 100px;
 }
